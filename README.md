@@ -1,4 +1,16 @@
-data-groundwater-basin_details
+# California Groundwater Basins Dataset - Version 0.0.5
+--------------------------------------------------------------------------------
+
+THIS IS A WORK IN PROGRESS. We will note when this document is final. 7/26/2013 -- laci videmsky
+
+--------------------------------------------------------------------------------
+
+The Department of Water Resources (DWR) maintains a dataset of groundwater elevation data, and makes it available through their data and mapping portal "California Statewide Groundwater Elevation Monitoring (CASGEM)"
+
+We are working to create a dataset that is developer-friendly, accurate, up-to-date and well-documented. We believe this will help to speed communication and promote clarity and innovation about water usage in the State. We began in December 2012, and are doing more improvements in Summer 2013. Please watch this Github repository for updates. We would like to have a great & re-usable dataset worked out by January 2014.
+
+
+data-groundwater-basins
 ==============================
 
 Groundwater Basin Descriptions
