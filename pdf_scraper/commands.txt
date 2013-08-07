@@ -1,0 +1,9 @@
+node server.js pdf http://www.water.ca.gov/groundwater/bulletin118/south_coast.cfm > south_coast.txt
+node server.js pdf http://www.water.ca.gov/groundwater/bulletin118/sacramento_river.cfm > sacramento_river.txt
+node server.js pdf http://www.water.ca.gov/groundwater/bulletin118/san_joaquin_river.cfm > san_joaquin_river.txt
+node server.js pdf http://www.water.ca.gov/groundwater/bulletin118/tulare_lake.cfm > tulare_lake.txt
+node server.js pdf http://www.water.ca.gov/groundwater/bulletin118/north_lahontan.cfm > north_lahontan.txt
+node server.js pdf http://www.water.ca.gov/groundwater/bulletin118/south_lahontan.cfm > south_lahontan.txt
+node server.js pdf http://www.water.ca.gov/groundwater/bulletin118/colorado_river.cfm > colorado_river.txt
+
+wget --timeout=15 --tries=2 -i tulare_lake.txt
